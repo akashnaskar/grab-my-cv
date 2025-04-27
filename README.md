@@ -67,6 +67,76 @@ I built a **full-stack AI-powered resume analyzer** that:
   - Analyze resumes in non-English languages (using SpaCy + multilingual transformers)
 
 ---
+Perfect!  
+Here’s a **super clean, professional \"How to Run\" section** you can directly **copy-paste** into your `README.md`.
+
+---
+
+## How to Run Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+cd YOUR-REPO-NAME
+```
+
+### 2. Setup a virtual environment
+```bash
+python -m venv venv
+```
+Activate it:
+- Windows:
+  ```bash
+  venv\\Scripts\\activate
+  ```
+- macOS/Linux:
+  ```bash
+  source venv/bin/activate
+  ```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure OpenAI API Key
+Create a `.streamlit/secrets.toml` file:
+```toml
+OPENAI_API_KEY = "your-openai-api-key-here"
+```
+
+Or alternatively, load it via a `.env` file.
+
+### 5. Launch the application
+```bash
+streamlit run app.py
+```
+The app will be available at:  
+`http://localhost:8501/`
+
+---
+
+## Alternative Setup: Using DevContainers
+
+If you have Docker and VSCode:
+- Open the project in VSCode
+- Choose \"Reopen in Container\"
+- The environment will be automatically configured.
+
+---
+
+✅ This guide ensures your project is fully operational locally in minutes.
+
+---
+
+# 📋 Quick Tip
+If you face port issues:
+```bash
+streamlit run app.py --server.port 8502
+```
+to manually set another port.
+
+---
 
 ## Final Note
 > This project demonstrates my ability to design, build, and deliver **real-world AI applications** that directly address modern recruitment challenges.
