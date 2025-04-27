@@ -67,10 +67,6 @@ I built a **full-stack AI-powered resume analyzer** that:
   - Analyze resumes in non-English languages (using SpaCy + multilingual transformers)
 
 ---
-Perfect!  
-Here’s a **super clean, professional \"How to Run\" section** you can directly **copy-paste** into your `README.md`.
-
----
 
 ## How to Run Locally
 
